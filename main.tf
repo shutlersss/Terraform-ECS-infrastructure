@@ -80,6 +80,7 @@ module "ECS" {
 
   env     = var.env
   project = var.project
+  region  = var.region
 }
 
 #=================================   CW  =====================================#
