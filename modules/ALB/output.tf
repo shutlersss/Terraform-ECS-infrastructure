@@ -5,3 +5,7 @@ output "tg-arn" {
 output "lb-listner" {
   value = aws_lb_listener.listener
 }
+
+output "lb-output" {
+  value = aws_alb.application_load_balancer.dns_name
+}
