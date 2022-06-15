@@ -9,4 +9,6 @@ Immediately you have to make your bucket in any availability zone. this is neces
 
 In many ways, you don't have to write much to variables, because most variables are the output of modules. You only need to change the variables for ECS based on your needs.
 
+Ater terraform installs all services, you need to wait ~3 min for the target group to pass healthcheck and load balancer to work
+
 Good luck!
